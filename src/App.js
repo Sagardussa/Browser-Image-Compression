@@ -64,7 +64,7 @@ const handlecompressimage = (e) => {
      </Button>)}
      <h1></h1>
 
-     {origImageFile && (<Button>
+     {compressedImage && (<Button>
          <a href ={compressedImage} download={fileName}>
          Download Image
      {" "}
